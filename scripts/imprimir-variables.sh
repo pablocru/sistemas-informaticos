@@ -1,10 +1,10 @@
 #!/bin/bash
 # Script que imprime lo que se introduce por consola.
 #
-# ---------------------------------------------
+# ---------------------------------------------------
 # Autor: Pablo Cru
 # Github: https://github.com/pabcrudel
-# --------------------------------------------
+# ---------------------------------------------------
 
 clear
 echo Introduce su nombre

@@ -1,8 +1,9 @@
 #!/bin/bash
-#
-#-----------------
+# Script que lee un nombre y saluda.
+#-------------------------------------
 # Author: Pablo Cru
-#------------------
+# Github: https://github.com/pabcrudel
+#-------------------------------------
 
 if [ -z $1 ]
 then
