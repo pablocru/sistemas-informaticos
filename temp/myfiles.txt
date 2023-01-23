@@ -1,0 +1,13 @@
+.
+├── README.md
+├── scripts
+│   ├── greeting.sh
+│   ├── imprimir-modificadores-echo.sh
+│   ├── imprimir-modificadores-read.sh
+│   ├── imprimir-parametros.sh
+│   ├── imprimir-variables.sh
+│   └── test-loops.sh
+└── temp
+    └── myfiles.txt
+
+2 directories, 8 files

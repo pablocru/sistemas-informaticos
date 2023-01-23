@@ -1,0 +1,1 @@
+Nombre: Mario; Edad:23
