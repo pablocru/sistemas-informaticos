@@ -1,5 +1,6 @@
 #!/bin/bash
 # Script que imprime lo que se introduce por consola.
+# Utiliza modificadores en el comando "read"
 #
 # ---------------------------------------------------
 # Autor: Pablo Cru
@@ -7,15 +8,11 @@
 # ---------------------------------------------------
 
 clear
-echo Introduce su nombre
-read nombre
+read -p "Introduce su nombre: " nombre
 
 echo Introduce su/s apellido/s
-echo Apellido 1: 
-read apellido1
-
-echo Apellido 2:
-read apellido2
+read -p "Apellido 1: " apellido1
+read -p "Apellido 2: " apellido2
 
 echo
 
