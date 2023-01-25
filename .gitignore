@@ -1,2 +1,4 @@
-# Excluido el contenido dentro de la carpeta "temp"
-temp/*
+# Excluido el directorio "temp" ya que su finalidad es doble:
+# - Almacenar archivos o carpetas necesarios para un script pero no guardarlos.
+# - Probar scripts que generan archivos o carpetas.
+temp/
