@@ -9,33 +9,38 @@
 # Github: https://github.com/pabcrudel
 #-------------------------------------------------------------------------
 
+ies=$HOME/IES
+
+rm -r $ies
+
 clear
 
-# Creada la carpeta en la raíz del disco. Para que funcione correctamente debes ser administrador por lo que deberias usar "sudo".
-mkdir /IES
+alumn=$ies/Alumnos
+prof=$ies/Profesores
 
-# Acceder a esta y crear las carpetas de alumno y profesor.
-cd /IES
-mkdir  Alumnos
-mkdir Profesores
+mkdir -p $alumn/ASIR
+mkdir -p $alumn/DAW
+mkdir -p $prof/ASIR
+mkdir -p $prof/DAW
 
-# Acceder a estas, crear las carpetas de los superiores y crear un fichero con infromacion de alumnos de cada una.
-cd Alumnos
-mkdir ASIR
+# Alumnos Asir
+aluAsir=$alumn/ASIR
+echo -e "Nombre: Marta;\nEdad: 20;\nNota: 7;" > $aluAsir/marta.txt
+echo -e "Nombre: Mario;\n Edad:23;\nNota: 9;" > $aluAsir/mario.txt
 
-#Se diferencia de "echo" en que respeta los caracteres de escape para añadir, por ejemplo, saltos de linea al archivo
-printf "Nombre: Marta\nEdad: 20" > ASIR/marta.txt
-printf "Nombre: Mario\nEdad:23" > ASIR/mario.txt
+# Alumnos DAW
+aluDaw=$alumn/DAW
+echo -e "Nombre: Pablo;\nEdad: 26;\nNota: 8;" > $aluDaw/pablo.txt
+echo -e "Nombre: Dani;\nEdad: 19;\nNota: 10;" > $aluDaw/dani.txt
 
-mkdir DAW
-printf "Nombre: Pablo\nEdad: 26" > DAW/pablo.txt
-printf "Nombre: Dani\nEdad: 19" > DAW/dani.txt
+# Profesores ASIR
+profAsir=$prof/ASIR
+echo -e "Nombre: Elena;\nClase: Info4;\nAsignatura: Base de Datos;" > $profAsir/elena.txt
+echo -e "Nombre: Marcos;\nClase: Info4;\nAsignatura: Sistemas;" > $profAsir/marcos.txt
 
-cd ../Profesores
-mkdir ASIR
-printf "Nombre: Elena\nClase: Bases de Datos" > ASIR/elena.txt
-printf "Nombre: Marcos\nClase: Sistemas Informaticos" > ASIR/marcos.txt
+# Profesores DAW
+profDaw=$prof/DAW
+echo -e "Nombre: Pascual;\nClase: Info3;\nAsignatura: Lenguajes de Marcas;" > $profDaw/pascual.txt
+echo -e "Nombre: Jorge;\nClase: Info3;\nAsignatura: Entornos;" > $profDaw/jorge.txt
 
-mkdir DAW
-printf "Nombre: Pascual\nClase: Lenguajes de MArcas" > DAW/pascual.txt
-printf "Nombre: Jorge\nClase: Entornos de Desarrollo" > DAW/jorge.txt
+tree $ies
