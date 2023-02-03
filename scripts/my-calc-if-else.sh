@@ -3,7 +3,7 @@
 # -Parametro 1: primer numero para la operacion.
 # -Parametro 2: operador que decide que calculo realizar.
 # -Parametro 3: segundo numero para la operacion.
-# Aunque seria mas correcto usar un switch, en este caso se utiliza una
+# Aunque seria mas correcto usar un switch (case), en este caso se utiliza una
 # estructura if-else para practicar lo dado en el temario.
 # --------------------------------------------------------------------
 # Author: Pablo Cru
