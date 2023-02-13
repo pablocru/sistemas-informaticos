@@ -6,8 +6,7 @@
 # Author: Pablo Cru
 # Github: 
 
-FILES="./*"
-for f in $FILES
+for f in `ls`
 do
   perl -p -i -e "s/\r//g" $f
 done
