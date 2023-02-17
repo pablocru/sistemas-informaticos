@@ -28,6 +28,6 @@ do
 		"---") perm=$perm"0";;
 	esac
 done
-echo Los permisos $1 equivalen a $perm en octal
+echo Los permisos en letras $1 corresponden a $perm en octal
 echo
 
