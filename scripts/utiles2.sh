@@ -26,14 +26,30 @@ f_opciones(){
         read opcion
         echo
 }
-f_listar_ficheros(){ls}
-f_listar_ficheros_detallados(){ls -l}
-f_ver_arbol(){tree}
-f_ver_ubicacion(){pwd}
-f_ver_memoria(){free -h}
-f_ver_info_maquina(){uname -a}
-f_salir(){exit}
-f_error(){echo "Opcion no valida. Vuelve a intentarlo..."}
+f_listar_ficheros(){
+	ls
+}
+f_listar_ficheros_detallados(){
+	ls -l
+}
+f_ver_arbol(){
+	tree
+}
+f_ver_ubicacion(){
+	pwd
+}
+f_ver_memoria(){
+	free -h
+}
+f_ver_info_maquina(){
+	uname -a
+}
+f_salir(){
+	exit
+}
+f_error(){
+	echo "Opcion no valida. Vuelve a intentarlo..."
+}
 f_reiniciar_programa(){
 	echo
         echo Dale a enter para continuar
@@ -46,22 +62,14 @@ while [ $opcion -ne 99 ]; do
 
 	f_opciones
 	case $opcion in
-		1) f_listar_ficheros
-		;;
-		2) f_listar_ficheros_detallados
-		;;
-		3) f_ver_arbol
-		;;
-		4) f_ver_ubicacion
-		;;
-		5) f_ver_memoria
-		;;
-		6) f_ver_info_maquina
-		;;
-		99) f_salir
-		;;
-		*) f_error
-		;;
+		1) f_listar_ficheros;;
+		2) f_listar_ficheros_detallados;;
+		3) f_ver_arbol;;
+		4) f_ver_ubicacion;;
+		5) f_ver_memoria;;
+		6) f_ver_info_maquina;;
+		99) f_salir;;
+		*) f_error;;
 	esac
 
 	f_reiniciar_programa
