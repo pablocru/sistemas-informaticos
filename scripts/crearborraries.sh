@@ -100,16 +100,25 @@ f_crearies() {
 }
 
 clear
-echo
 
-f_menu
-read opt
+loop=0
+while [ $loop ]; do
+	loop=1
 
-case $opt in
-	0) f_salir;;
-	1) f_crearies;;
-	2) f_borraries;;
-	3) f_creditos;;
-esac
+	f_menu
+	read opt
 
+	case $opt in
+		0) f_salir;;
+		1) f_crearies;;
+		2) f_borraries;;
+		3) f_creditos;;
+	esac
+
+	echo
+	echo Dale a enter para continuar
+	read
+	clear
+	loop=0
+done
 echo
