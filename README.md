@@ -3,8 +3,8 @@ Este repositirio contiene los proyectos que estoy realizando para el módulo de 
 
 ## Arbol del Repositorio
 .
-├── calc-nif\n
-│   ├── myNifCase.sh\n
+├── calc-nif
+│   ├── myNifCase.sh
 │   └── myNif.sh
 ├── calculadora
 │   ├── my-calc-case.sh
