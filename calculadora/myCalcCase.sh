@@ -17,7 +17,8 @@ num2=$3
 op=$2
 
 f_res(){
-	msg="La $1 de $num1 y $num2 da $2"
+	echo La $1 de $num1 y $num2 da $2
+	echo
 }
 
 case $2 in
@@ -30,6 +31,3 @@ case $2 in
 	exit 1
 	;;
 esac
-
-echo $msg
-echo
