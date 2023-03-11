@@ -1,4 +1,4 @@
-# Calculadora de operaciones matemáticas básicas (+, -, * y /)
+# Calculadora de operaciones matemáticas básicas (+, -, *, /)
 Este programa realiza un calculo básico según los parámetros introducidos por el usuario:
 - Parámetro 1: primer numero para la operación.
 - Parámetro 2: operador que decide que calculo realizar.
