@@ -6,6 +6,7 @@ Este programa realiza un calculo básico según los parámetros introducidos por
 
 ## Como realizar el calculo
 Se utiliza el comando `expr` para realiza el calculo entre los dos argumentos que se pasan al script. 
+
 Por ejemplo: `expr $1 + $3`.
 
 -   `expr`: es un comando de Unix que evalúa una expresión y muestra su resultado en la salida estándar. En este caso, se utiliza para realizar la operación aritmética de suma.
