@@ -1,4 +1,14 @@
 #!/bin/bash
+# Script que lee 3 parametros:
+# -Parametro 1: primer numero para la operacion.
+# -Parametro 2: operador que decide que calculo realizar.
+# -Parametro 3: segundo numero para la operacion.
+# Utilizando un switch (case) cambia el tipo de operacion segun el operador.
+#
+# --------------------------------------------------------------------
+# Author: Pablo Cru
+# GitHub: https://github.com/pabcrudel
+# --------------------------------------------------------------------
 
 clear
 
