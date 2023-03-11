@@ -40,6 +40,7 @@ else
 	echo $2 no es un operador valido. Los validos son mas, men, mul, div.
 fi
 ```
+
 <a id="switch"></a>
 ### Instrucción switch - my-calc-case.sh
 Como lo que se esta verificando es que sea igual a un string, tiene mas sentido utilizar un switch. Se accede a la misma variable `$2` y si no es valida tampoco se realiza ninguna operacion.
@@ -61,6 +62,7 @@ case $2 in
 		echo $2 no es un operador valido. Los validos son mas, men, mul, div.;;
 esac
 ```
+
 <a id="simple-switch"></a>
 ### Instrucción switch simplificada - myCalcCase.sh
 En los casos en los que el operador es valido, siempre se realiza la misma accion pero cambiando el operador:
