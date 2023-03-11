@@ -4,6 +4,7 @@ Este programa realiza un calculo básico según los parámetros introducidos por
 - Parámetro 2: operador que decide que calculo realizar.
 - Parámetro 3: segundo numero para la operación.
 
+
 ## Como realizar el calculo
 Se utiliza el comando `expr` para realiza el calculo entre los dos argumentos que se pasan al script. 
 Por ejemplo: `expr $1 + $3`.
@@ -13,12 +14,14 @@ Por ejemplo: `expr $1 + $3`.
 -   `+`: este operador ira variando en funcion de lo que elija el usuario.
 -   `$3`: es otra variable especial en Bash que se refiere al tercer argumento que se pasa al script. En esta línea, `$3` se utiliza como el segundo número en la operación de suma.
 
+
 ## Diferencias entre versiones
 Hay 3 versiones:
 
 - [if-else](#if-else)
 - [switch](#switch)
 - [switch simplificado](#simple-switch)
+
 
 <a id="if-else"></a>
 ### Instrucción if-else - my-calc-if-else.sh
@@ -41,6 +44,7 @@ else
 fi
 ```
 
+
 <a id="switch"></a>
 ### Instrucción switch - my-calc-case.sh
 Como lo que se esta verificando es que sea igual a un string, tiene mas sentido utilizar un switch. Se accede a la misma variable `$2` y si no es valida tampoco se realiza ninguna operacion.
@@ -62,6 +66,7 @@ case $2 in
 		echo $2 no es un operador valido. Los validos son mas, men, mul, div.;;
 esac
 ```
+
 
 <a id="simple-switch"></a>
 ### Instrucción switch simplificada - myCalcCase.sh
