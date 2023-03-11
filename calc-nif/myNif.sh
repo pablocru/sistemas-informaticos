@@ -1,4 +1,11 @@
 #!/bin/bash
+#
+# Script que genera la letra de un DNI o NIF introducido por el usuario.
+#
+# --------------------------------------------------------------------
+# Author: Pablo Cru
+# GitHub: https://github.com/pabcrudel
+# --------------------------------------------------------------------
 
 clear
 
