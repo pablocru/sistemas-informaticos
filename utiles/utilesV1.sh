@@ -1,4 +1,12 @@
 #!/bin/bash
+#
+# Script que muestra un menu de opciones con diferentes scripts de linux a eleccion.
+# Para terminar el script hay que introducir un 99.
+#
+# --------------------------------------------------------------------
+# Author: Pablo Cru
+# GitHub: https://github.com/pabcrudel
+# --------------------------------------------------------------------
 
 # *********************- Funciones -******************************
 f_menu(){
