@@ -5,14 +5,14 @@ Hay 2 versiones, ambas permiten generar el NIF a partir del número de DNI, pero
 
 ## Diferencias entre versiones
 
-| Version 1 | Version 2 |
+| Versión 1 - myNifString.sh | Versión 2 - myNifCase |
 |-----------|-----------|
 | Utiliza comandos y utilidades de Unix más modernas y versátiles, como `cut`, que permiten hacer el script más compacto y fácil de entender. También utiliza el comando `read` con la opción `-p` para solicitar el número de DNI al usuario, lo que es más claro que el uso de `echo` y `read` en la versión 2. | El cálculo de la letra del NIF se hace mediante una estructura `case` que compara el resto de la división del número de DNI entre 23 con los posibles valores que puede tomar ese resto (0 a 22). Esta estructura es más complicada y menos legible que la simple búsqueda de la letra correspondiente en una cadena de letras, como se hace en la versión 1. |
 | [saltar aquí](#version1) | [saltar aquí](#version2) |
 
 
 <a id="version1"></a>
-## Explicación del código versión 1
+## Explicación del código Versión 1 - myNifString.sh
 ### Obtener el número de DNI
 El primer paso del script es comprobar si se ha pasado el número de DNI como argumento al ejecutar el script o si es necesario pedírselo al usuario mediante la consola. Esto se hace con el siguiente código:
 ```bash
@@ -55,7 +55,7 @@ echo
 Se muestra el mensaje "Su NIF es " seguido del valor de la variable `$nif`, que contiene el número de DNI con la letra correspondiente del NIF. Además, se imprime una línea en blanco para separar el resultado del resto de la salida por pantalla.
 
 <a id="version2"></a>
-## Explicación del código versión 2
+## Explicación del códigoVersión 2 - myNifCase
 
 ### Obtener el número de DNI del usuario
 Comprueba si se ha proporcionado un argumento al ejecutar el script. Si se ha proporcionado, el número de DNI se almacena en la variable `num`. Si no se ha proporcionado, se solicita al usuario que introduzca el número de DNI y se almacena en la variable `num`. En ambos casos, se imprime una línea en blanco.
