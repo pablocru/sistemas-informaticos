@@ -14,13 +14,10 @@
 # GitHub: https://github.com/pabcrudel
 # --------------------------------------------------------------------
 
-clear
-echo
-
 
 # -------------- FUNCIONES ---------------
 
-# Mrnu con las opciones del programa.
+# Menu con las opciones del programa.
 f_menu() {
 	echo "/* ----------------------------------------------------- */"
 	echo "			PAPELERA DE RECICLAJE			 "
@@ -114,7 +111,11 @@ f_existe_papelera() {
 	done
 }
 
+
 # -------------- PROGRAMA ---------------
+
+clear
+echo
 
 # Como es lo primero que ocurre, no quiero que los mensajes salgan al principio del programa.
 f_crear_papelera > /dev/null
