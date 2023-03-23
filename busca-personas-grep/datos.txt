@@ -1,0 +1,19 @@
+------------------------------
+Profesores tenemos:
+
+18000001U	Tomas Otero		Hombre		Profesor        25          NO
+18000012H	Pepa Martinez		Mujer		Profesor        50          NO
+18000017H	Tomas Tomas		Hombre		Profesor        25          SI
+18000019P	Anastasio Leo		Hombre		Profesor        38          NO
+------------------------------
+Personas con 38 años tenemos:
+
+18000000Y	Marcos Leiros		Hombre		Ingeniero       38          SI
+18000004Q	Loren Martinez		Mujer		Maestro         38          NO
+18000009O	Marcos Lopez		Hombre		Bedel           38          NO
+18000012Q	Marta Llorens		Mujer		Ingeniero       38          SI
+18000014R	Pepe Flores		Hombre		Bedel           38          SI
+18000015L	Julia Camacho		Mujer		Periodista      38          NO
+18000019P	Anastasio Leo		Hombre		Profesor        38          NO
+18000023X	Marcos Gonzo		Hombre		Maestro         38          SI	
+18000024D	Marta Otero		Mujer		Bedel           38          SI
