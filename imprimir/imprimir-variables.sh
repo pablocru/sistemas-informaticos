@@ -3,7 +3,7 @@
 #
 # ---------------------------------------------------
 # Autor: Pablo Cru
-# Github: https://github.com/pabcrudel
+# Github: https://github.com/pablocru
 # ---------------------------------------------------
 
 clear

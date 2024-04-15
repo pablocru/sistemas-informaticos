@@ -2,7 +2,7 @@
 # Script que lee un nombre y saluda.
 #-------------------------------------
 # Author: Pablo Cru
-# Github: https://github.com/pabcrudel
+# Github: https://github.com/pablocru
 #-------------------------------------
 
 if [ -z $1 ]

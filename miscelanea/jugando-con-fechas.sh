@@ -4,7 +4,7 @@
 # En caso contrario da error.
 # ---------------------------------------------
 # Autor: Pablo Cru
-# Github: https://github.com/pabcrudel
+# Github: https://github.com/pablocru
 #----------------------------------------------
 
 clear

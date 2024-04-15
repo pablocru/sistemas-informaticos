@@ -7,7 +7,7 @@
 #
 # --------------------------------------------------------------------
 # Author: Pablo Cru
-# GitHub: https://github.com/pabcrudel
+# GitHub: https://github.com/pablocru
 # --------------------------------------------------------------------
 
 clear

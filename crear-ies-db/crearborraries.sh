@@ -6,7 +6,7 @@
 #
 #-------------------------------------------------------------------------
 # Author: Pablo Cru
-# Github: https://github.com/pabcrudel
+# Github: https://github.com/pablocru
 #-------------------------------------------------------------------------
 
 # Muestra el menu de opciones del programa
@@ -42,7 +42,7 @@ f_creditos() {
 	echo
 	echo "------------------------------------------------------------------------"
 	echo "Author: Pablo Cru"
-	echo "Github: https://github.com/pabcrudel"
+	echo "Github: https://github.com/pablocru"
 	echo "------------------------------------------------------------------------"
 	echo
 }

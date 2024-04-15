@@ -7,7 +7,7 @@
 # estructura if-else para practicar lo dado en el temario.
 # --------------------------------------------------------------------
 # Author: Pablo Cru
-# GitHub: https://github.com/pabcrudel
+# GitHub: https://github.com/pablocru
 # --------------------------------------------------------------------
 
 clear
